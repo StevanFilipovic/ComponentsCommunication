@@ -1,0 +1,10 @@
+<div class="container">
+	<hello name="{{ name }}"></hello>
+	<div class="sendMessages">
+		<div class="msgToSibling">
+			<label for="msgToSibling">Message to sibling - child2:</label>
+			<input type="text" id="msgToSibling" name="msgToSibling" [(ngModel)]="porukaZaSlanje">
+			<button (click)="posaljiPorukuNaChild2()">Posalji na child2</button>
+		</div>
+	</div>
+</div>

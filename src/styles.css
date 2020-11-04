@@ -1,0 +1,72 @@
+/* Add application styles & imports to this file! */
+html, body {
+  font-family: Arial;
+  padding: 0;
+  margin: 10px;
+
+}
+
+label {
+  display: block;
+  width: 100%;
+}
+
+input {
+  width: 80%;
+  padding: 5px;
+}
+
+button {
+  padding: 5px;
+}
+
+.container {
+  padding: 10px;
+  border-radius: 0.2rem;
+}
+
+.kidsrooms {
+  display: flex;
+  justify-content: space-between
+}
+
+.parentroom {
+  background-color: #d6c7b1;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 0.5rem;
+}
+
+.receivedMessages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.child1 {
+  background-color: #afcad4;
+}
+
+.child2 {
+  background-color:#c9b1d6;
+}
+
+.child1, .child2 {
+  width: 45%;
+  padding: 0 10px;
+  margin: 0px;
+  border-radius: 0.5rem;
+}
+
+.msg2 {
+  background-color:#c9b1d6;
+  padding: 10px;
+}
+
+.msg1 {
+  background-color: #afcad4;
+  padding: 10px;
+}
+
+

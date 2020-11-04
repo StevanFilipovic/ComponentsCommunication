@@ -1,0 +1,22 @@
+<app-roof></app-roof>
+<div class="container">
+	<div class="parentroom">
+		<div class="sendMessages">
+			<hello name="{{ name }}"></hello>
+		</div>
+		<div class="receivedMessages">
+		</div>
+	</div>
+	<hr>
+	<div class="kidsrooms">
+		<div class="child1">
+			<app-child1
+				(tipOutputPorukaZaChild2)="funkcijaKojaSetujeVrednostPromenljiveKojuPrihvataInputChilda($event)">
+			</app-child1>
+		</div>
+		<div class="child2">
+			<app-child2 [promenljivaKojaDobijaVrednostOdEventa]="promenljivaKojaDobijaVrednostOdEventa">
+			</app-child2>
+		</div>
+	</div>
+</div>

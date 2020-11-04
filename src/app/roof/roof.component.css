@@ -1,0 +1,17 @@
+.frame {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.triangleR {
+    width: 50%;
+    height: 120px;
+    background: linear-gradient(to left top, red 49.5%, transparent 50%);
+}
+
+.triangleL {
+    width: 50%;
+    height: 120px;
+    background: linear-gradient(to right top, red 49.5%, transparent 50%);
+}
